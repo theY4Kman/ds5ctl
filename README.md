@@ -7,6 +7,13 @@ A GUI tool for configuring a DualSense 5 controller (currently only supports dir
 ![Example recording after sending to controller](https://user-images.githubusercontent.com/33840/174456917-81cdcd86-f37e-483c-976f-c6381d1b6469.gif)
 
 
+# Installation
+
+```shell
+pip install ds5ctl
+```
+
+
 # Usage
 
 To run the GUI:

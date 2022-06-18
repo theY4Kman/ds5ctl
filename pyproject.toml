@@ -6,6 +6,9 @@ authors = ["Zach Kanzler <they4kman@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
+repository = 'https://github.com/theY4Kman/ds5ctl'
+homepage = 'https://github.com/theY4Kman/ds5ctl'
+
 [tool.poetry.dependencies]
 python = "^3.10"
 
