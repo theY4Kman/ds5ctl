@@ -183,8 +183,8 @@ class DualSenseUI:
                 dpg.add_text(tag='hex_data_length')
 
             self._add_flag_group('Operating Mode', 'operating_mode', OperatingMode)
-            self._add_flag_group('Flag3', 'physical_effect_control', PhysicalEffectControl)
-            self._add_flag_group('Flag1', 'light_effect_control', LightEffectControl)
+            self._add_flag_group('Physical Effect Control', 'physical_effect_control', PhysicalEffectControl)
+            self._add_flag_group('Light Effect Control', 'light_effect_control', LightEffectControl)
 
             with (
                 dpg.collapsing_header(label='Haptics', default_open=True),
@@ -239,7 +239,7 @@ class DualSenseUI:
                         with dpg.group(show=False, tag=f'{side}_trigger_effect_calibrate'):
                             pass
 
-            self._add_flag_group('Flag2', 'lightbar_control', LightbarControl)
+            self._add_flag_group('Lightbar Control', 'lightbar_control', LightbarControl)
 
             self._add_radio_group('Lightbar Setup', 'lightbar_setup', LightbarSetup)
             self._add_byte_slider('LED Brightness', 'led_brightness')
