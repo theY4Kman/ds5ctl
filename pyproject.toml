@@ -7,8 +7,11 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-hidapi = "^0.11.2"
+
 dearpygui = "^1.6.2"
+hidapi = "^0.11.2"
+mopyx = "^1.1.1"
+pytest = "~=7.0"
 
 [tool.poetry.dev-dependencies]
 
