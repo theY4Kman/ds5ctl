@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Some reference implementations of DS5-related I/O"
 authors = ["Zach Kanzler <they4kman@gmail.com>"]
 license = "MIT"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -14,6 +15,9 @@ mopyx = "^1.1.1"
 pytest = "~=7.0"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+ds5ctl = 'ds5ctl.gui:run_gui'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
