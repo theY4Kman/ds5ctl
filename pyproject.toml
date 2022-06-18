@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ds5ctl"
-version = "0.1.0"
+version = "0.2.0"
 description = "Some reference implementations of DS5-related I/O"
 authors = ["Zach Kanzler <they4kman@gmail.com>"]
 license = "MIT"
